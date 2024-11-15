@@ -1,0 +1,135 @@
+/* Customer.css */
+
+.customer-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #4a90e2; /* Pastel blue */
+  text-align: center;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+h2:hover {
+  color: #357abd; /* Slightly darker pastel blue on hover */
+}
+
+.table-container {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9f9f9; /* Light pastel gray */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Light gray border */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+th {
+  background-color: #f4a261; /* Pastel orange */
+  color: #fff; /* White text */
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f4f8; /* Very light pastel blue */
+}
+
+tr:nth-child(even):hover {
+  background-color: #e0e4e8; /* Light pastel gray on hover */
+}
+
+tr:hover {
+  background-color: #e0e4e8; /* Light pastel gray */
+}
+
+.add-customer-form {
+  background-color: #ffffff; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow for form */
+  transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+.add-customer-form:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+h3 {
+  color: #4a90e2; /* Pastel blue */
+  margin-bottom: 15px;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+h3:hover {
+  color: #357abd; /* Slightly darker pastel blue on hover */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  color: #333; /* Dark gray text */
+  margin-bottom: 5px;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+label:hover {
+  color: #4a90e2; /* Pastel blue on hover */
+}
+
+input[type="text"],
+input[type="email"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #4a90e2; /* Pastel blue */
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.3); /* Soft glow effect */
+}
+
+.submit-btn,
+.cancel-btn {
+  background-color: #4a90e2; /* Pastel blue */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth background color and scale transition */
+  margin-right: 10px;
+}
+
+.submit-btn:hover,
+.cancel-btn:hover {
+  background-color: #357abd; /* Slightly darker pastel blue */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.cancel-btn {
+  background-color: #e94e77; /* Pastel pink */
+}
+
+.cancel-btn:hover {
+  background-color: #d43f6c; /* Slightly darker pastel pink */
+}

@@ -1,0 +1,35 @@
+/* Menubar.css */
+
+/* Menubar Container */
+.menubar {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+    background-color: #a89fcf; /* Lavender background color */
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center align items horizontally */
+    border-radius: 5px;
+  }
+  
+  .menubar li {
+    margin: 0;
+  }
+  
+  .menubar a {
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .menubar li a {
+    display: block;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: white; /* White text color */
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .menubar li a:hover {
+    background-color: #8a7fdb; /* Darker lavender for hover effect */
+    color: #f5f5f5; /* Light gray text on hover */
+  }
+  

@@ -1,0 +1,24 @@
+/* Header.css */
+
+/* Header Container */
+.Header {
+    padding: 20px;
+    background-color: #e0f7fa; /* Light teal background color */
+    color: #00796b; /* Dark teal color for text */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  .Header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #004d40; /* Darker teal for main heading */
+  }
+  
+  .Header h2 {
+    margin: 10px 0 0;
+    font-size: 1.5rem;
+    color: #004d40; /* Darker teal for subheading */
+  }
+  

@@ -1,0 +1,29 @@
+/* App.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow: auto;
+}
+
+footer {
+  background-color: #673ab7; /* Purple background */
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  border-top: 4px solid #512da8; /* Darker purple border on top */
+  flex-shrink: 0;
+}
